@@ -16,4 +16,6 @@ appointmentsRouter.post('/', (request, response) => {
 
   appointments.push(appointment);
   return response.json(appointment);
+});
+
 export default appointmentsRouter;
